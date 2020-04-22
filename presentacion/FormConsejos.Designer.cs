@@ -1,6 +1,6 @@
 ﻿namespace presentacion
 {
-    partial class frmAcerca
+    partial class frmConsejos
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAcerca));
+            this.components = new System.ComponentModel.Container();
             this.btnCierre = new System.Windows.Forms.Button();
-            this.pctFondo = new System.Windows.Forms.PictureBox();
-            this.lblAcerca = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pctFondo)).BeginInit();
+            this.pnlConsejos = new MetroFramework.Controls.MetroPanel();
+            this.frmConsejosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.frmConsejosBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCierre
@@ -42,55 +42,48 @@
             this.btnCierre.Margin = new System.Windows.Forms.Padding(2);
             this.btnCierre.Name = "btnCierre";
             this.btnCierre.Size = new System.Drawing.Size(56, 19);
-            this.btnCierre.TabIndex = 2;
+            this.btnCierre.TabIndex = 3;
             this.btnCierre.Text = "Salir";
             this.btnCierre.UseVisualStyleBackColor = true;
             this.btnCierre.Click += new System.EventHandler(this.btnCierre_Click);
             // 
-            // pctFondo
+            // pnlConsejos
             // 
-            this.pctFondo.Image = ((System.Drawing.Image)(resources.GetObject("pctFondo.Image")));
-            this.pctFondo.Location = new System.Drawing.Point(-1, 0);
-            this.pctFondo.Name = "pctFondo";
-            this.pctFondo.Size = new System.Drawing.Size(659, 480);
-            this.pctFondo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctFondo.TabIndex = 3;
-            this.pctFondo.TabStop = false;
+            this.pnlConsejos.HorizontalScrollbarBarColor = true;
+            this.pnlConsejos.HorizontalScrollbarHighlightOnWheel = false;
+            this.pnlConsejos.HorizontalScrollbarSize = 10;
+            this.pnlConsejos.Location = new System.Drawing.Point(6, 9);
+            this.pnlConsejos.Name = "pnlConsejos";
+            this.pnlConsejos.Size = new System.Drawing.Size(641, 441);
+            this.pnlConsejos.TabIndex = 4;
+            this.pnlConsejos.VerticalScrollbarBarColor = true;
+            this.pnlConsejos.VerticalScrollbarHighlightOnWheel = false;
+            this.pnlConsejos.VerticalScrollbarSize = 10;
             // 
-            // lblAcerca
+            // frmConsejosBindingSource
             // 
-            this.lblAcerca.AutoSize = true;
-            this.lblAcerca.BackColor = System.Drawing.Color.DarkOliveGreen;
-            this.lblAcerca.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAcerca.ForeColor = System.Drawing.Color.White;
-            this.lblAcerca.Location = new System.Drawing.Point(22, 52);
-            this.lblAcerca.Name = "lblAcerca";
-            this.lblAcerca.Size = new System.Drawing.Size(316, 342);
-            this.lblAcerca.TabIndex = 4;
-            this.lblAcerca.Text = resources.GetString("lblAcerca.Text");
+            this.frmConsejosBindingSource.DataSource = typeof(presentacion.frmConsejos);
             // 
-            // frmAcerca
+            // frmConsejos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(659, 480);
-            this.Controls.Add(this.lblAcerca);
+            this.Controls.Add(this.pnlConsejos);
             this.Controls.Add(this.btnCierre);
-            this.Controls.Add(this.pctFondo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmAcerca";
-            this.Text = "FormAcerca";
-            ((System.ComponentModel.ISupportInitialize)(this.pctFondo)).EndInit();
+            this.Name = "frmConsejos";
+            this.Text = "FormConsejos";
+            ((System.ComponentModel.ISupportInitialize)(this.frmConsejosBindingSource)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btnCierre;
-        private System.Windows.Forms.PictureBox pctFondo;
-        private System.Windows.Forms.Label lblAcerca;
+        private MetroFramework.Controls.MetroPanel pnlConsejos;
+        private System.Windows.Forms.BindingSource frmConsejosBindingSource;
     }
 }

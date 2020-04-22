@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace presentacion
 {
-    public partial class FormBitacora : Form
+    public partial class frmBitacora : Form
     {
-        public FormBitacora()
+        public frmBitacora()
         {
             InitializeComponent();
         }

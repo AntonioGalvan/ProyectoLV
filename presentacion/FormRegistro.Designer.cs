@@ -1,6 +1,6 @@
 ﻿namespace presentacion
 {
-    partial class FormRegistro
+    partial class frmRegistro
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegistro));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRegistro));
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.pcbLogo = new System.Windows.Forms.PictureBox();
@@ -74,7 +74,7 @@
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
             this.btnMinimizar.Location = new System.Drawing.Point(701, 10);
-            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(2);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(11, 12);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -86,7 +86,7 @@
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
             this.btnCerrar.Location = new System.Drawing.Point(718, 10);
-            this.btnCerrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(11, 12);
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -98,7 +98,7 @@
             // 
             this.pcbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pcbLogo.Image")));
             this.pcbLogo.Location = new System.Drawing.Point(508, 20);
-            this.pcbLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pcbLogo.Margin = new System.Windows.Forms.Padding(2);
             this.pcbLogo.Name = "pcbLogo";
             this.pcbLogo.Size = new System.Drawing.Size(79, 77);
             this.pcbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -122,7 +122,7 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(360, 556);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -136,7 +136,7 @@
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.ForeColor = System.Drawing.Color.DimGray;
             this.txtNombre.Location = new System.Drawing.Point(12, 11);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(284, 19);
             this.txtNombre.TabIndex = 0;
@@ -151,7 +151,7 @@
             this.txtApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtApellidos.ForeColor = System.Drawing.Color.DimGray;
             this.txtApellidos.Location = new System.Drawing.Point(12, 11);
-            this.txtApellidos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtApellidos.Margin = new System.Windows.Forms.Padding(2);
             this.txtApellidos.Name = "txtApellidos";
             this.txtApellidos.Size = new System.Drawing.Size(284, 19);
             this.txtApellidos.TabIndex = 1;
@@ -164,7 +164,7 @@
             this.pnlApellidos.BackColor = System.Drawing.SystemColors.Menu;
             this.pnlApellidos.Controls.Add(this.txtApellidos);
             this.pnlApellidos.Location = new System.Drawing.Point(396, 202);
-            this.pnlApellidos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlApellidos.Margin = new System.Windows.Forms.Padding(2);
             this.pnlApellidos.Name = "pnlApellidos";
             this.pnlApellidos.Size = new System.Drawing.Size(309, 41);
             this.pnlApellidos.TabIndex = 9;
@@ -174,7 +174,7 @@
             this.pnlNombre.BackColor = System.Drawing.SystemColors.Menu;
             this.pnlNombre.Controls.Add(this.txtNombre);
             this.pnlNombre.Location = new System.Drawing.Point(396, 149);
-            this.pnlNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlNombre.Margin = new System.Windows.Forms.Padding(2);
             this.pnlNombre.Name = "pnlNombre";
             this.pnlNombre.Size = new System.Drawing.Size(309, 41);
             this.pnlNombre.TabIndex = 8;
@@ -205,7 +205,7 @@
             this.pnlEdad.BackColor = System.Drawing.SystemColors.Menu;
             this.pnlEdad.Controls.Add(this.txtEdad);
             this.pnlEdad.Location = new System.Drawing.Point(396, 256);
-            this.pnlEdad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlEdad.Margin = new System.Windows.Forms.Padding(2);
             this.pnlEdad.Name = "pnlEdad";
             this.pnlEdad.Size = new System.Drawing.Size(78, 41);
             this.pnlEdad.TabIndex = 21;
@@ -217,7 +217,7 @@
             this.txtEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEdad.ForeColor = System.Drawing.Color.DimGray;
             this.txtEdad.Location = new System.Drawing.Point(12, 11);
-            this.txtEdad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEdad.Margin = new System.Windows.Forms.Padding(2);
             this.txtEdad.Name = "txtEdad";
             this.txtEdad.Size = new System.Drawing.Size(53, 19);
             this.txtEdad.TabIndex = 2;
@@ -230,7 +230,7 @@
             this.pnlCiudad.BackColor = System.Drawing.SystemColors.Menu;
             this.pnlCiudad.Controls.Add(this.txtCiudad);
             this.pnlCiudad.Location = new System.Drawing.Point(486, 256);
-            this.pnlCiudad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlCiudad.Margin = new System.Windows.Forms.Padding(2);
             this.pnlCiudad.Name = "pnlCiudad";
             this.pnlCiudad.Size = new System.Drawing.Size(219, 41);
             this.pnlCiudad.TabIndex = 22;
@@ -242,7 +242,7 @@
             this.txtCiudad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCiudad.ForeColor = System.Drawing.Color.DimGray;
             this.txtCiudad.Location = new System.Drawing.Point(14, 11);
-            this.txtCiudad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCiudad.Margin = new System.Windows.Forms.Padding(2);
             this.txtCiudad.Name = "txtCiudad";
             this.txtCiudad.Size = new System.Drawing.Size(193, 19);
             this.txtCiudad.TabIndex = 3;
@@ -255,7 +255,7 @@
             this.pnlUsuario.BackColor = System.Drawing.SystemColors.Menu;
             this.pnlUsuario.Controls.Add(this.txtUsuario);
             this.pnlUsuario.Location = new System.Drawing.Point(396, 331);
-            this.pnlUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.pnlUsuario.Name = "pnlUsuario";
             this.pnlUsuario.Size = new System.Drawing.Size(309, 41);
             this.pnlUsuario.TabIndex = 23;
@@ -267,7 +267,7 @@
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.ForeColor = System.Drawing.Color.DimGray;
             this.txtUsuario.Location = new System.Drawing.Point(12, 11);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(284, 19);
             this.txtUsuario.TabIndex = 4;
@@ -280,7 +280,7 @@
             this.pnlContra.BackColor = System.Drawing.SystemColors.Menu;
             this.pnlContra.Controls.Add(this.txtContra);
             this.pnlContra.Location = new System.Drawing.Point(396, 384);
-            this.pnlContra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlContra.Margin = new System.Windows.Forms.Padding(2);
             this.pnlContra.Name = "pnlContra";
             this.pnlContra.Size = new System.Drawing.Size(309, 41);
             this.pnlContra.TabIndex = 24;
@@ -292,7 +292,7 @@
             this.txtContra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContra.ForeColor = System.Drawing.Color.DimGray;
             this.txtContra.Location = new System.Drawing.Point(12, 11);
-            this.txtContra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtContra.Margin = new System.Windows.Forms.Padding(2);
             this.txtContra.Name = "txtContra";
             this.txtContra.Size = new System.Drawing.Size(284, 19);
             this.txtContra.TabIndex = 5;
@@ -306,7 +306,7 @@
             this.pnlConfirmContra.BackColor = System.Drawing.SystemColors.Menu;
             this.pnlConfirmContra.Controls.Add(this.txtConfirmContra);
             this.pnlConfirmContra.Location = new System.Drawing.Point(396, 439);
-            this.pnlConfirmContra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlConfirmContra.Margin = new System.Windows.Forms.Padding(2);
             this.pnlConfirmContra.Name = "pnlConfirmContra";
             this.pnlConfirmContra.Size = new System.Drawing.Size(309, 41);
             this.pnlConfirmContra.TabIndex = 30;
@@ -318,7 +318,7 @@
             this.txtConfirmContra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtConfirmContra.ForeColor = System.Drawing.Color.DimGray;
             this.txtConfirmContra.Location = new System.Drawing.Point(12, 11);
-            this.txtConfirmContra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtConfirmContra.Margin = new System.Windows.Forms.Padding(2);
             this.txtConfirmContra.Name = "txtConfirmContra";
             this.txtConfirmContra.Size = new System.Drawing.Size(284, 19);
             this.txtConfirmContra.TabIndex = 6;
@@ -336,7 +336,7 @@
             this.btnRegistrarse.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarse.ForeColor = System.Drawing.Color.White;
             this.btnRegistrarse.Location = new System.Drawing.Point(466, 509);
-            this.btnRegistrarse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegistrarse.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegistrarse.Name = "btnRegistrarse";
             this.btnRegistrarse.Size = new System.Drawing.Size(160, 34);
             this.btnRegistrarse.TabIndex = 7;
@@ -352,7 +352,7 @@
             this.lblRegistroE.Location = new System.Drawing.Point(394, 518);
             this.lblRegistroE.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRegistroE.Name = "lblRegistroE";
-            this.lblRegistroE.Size = new System.Drawing.Size(114, 18);
+            this.lblRegistroE.Size = new System.Drawing.Size(117, 18);
             this.lblRegistroE.TabIndex = 31;
             this.lblRegistroE.Text = "Registro exitoso";
             this.lblRegistroE.Visible = false;
@@ -380,7 +380,7 @@
             this.btnIniciar.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIniciar.ForeColor = System.Drawing.Color.White;
             this.btnIniciar.Location = new System.Drawing.Point(544, 509);
-            this.btnIniciar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnIniciar.Margin = new System.Windows.Forms.Padding(2);
             this.btnIniciar.Name = "btnIniciar";
             this.btnIniciar.Size = new System.Drawing.Size(160, 34);
             this.btnIniciar.TabIndex = 33;
@@ -394,7 +394,7 @@
             this.pcbRegreso.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pcbRegreso.Image = ((System.Drawing.Image)(resources.GetObject("pcbRegreso.Image")));
             this.pcbRegreso.Location = new System.Drawing.Point(371, 2);
-            this.pcbRegreso.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pcbRegreso.Margin = new System.Windows.Forms.Padding(2);
             this.pcbRegreso.Name = "pcbRegreso";
             this.pcbRegreso.Size = new System.Drawing.Size(17, 21);
             this.pcbRegreso.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -402,7 +402,7 @@
             this.pcbRegreso.TabStop = false;
             this.pcbRegreso.Click += new System.EventHandler(this.pcbRegreso_Click);
             // 
-            // FormRegistro
+            // frmRegistro
             // 
             this.AcceptButton = this.btnRegistrarse;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -429,8 +429,8 @@
             this.Controls.Add(this.shapeContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "FormRegistro";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "frmRegistro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormRegistro";
             this.Load += new System.EventHandler(this.FormRegistro_Load);

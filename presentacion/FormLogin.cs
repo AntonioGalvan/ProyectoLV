@@ -158,7 +158,7 @@ namespace presentacion
         private void lblRegistrarse_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form registro = new FormRegistro();
+            Form registro = new frmRegistro();
             registro.Show();
         }
 

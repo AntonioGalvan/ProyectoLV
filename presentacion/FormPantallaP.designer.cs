@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPantallaP));
             this.btnCierre = new System.Windows.Forms.Button();
             this.pnlMenu = new System.Windows.Forms.Panel();
-            this.lblConsejo = new System.Windows.Forms.Label();
+            this.btnConsejos = new System.Windows.Forms.Button();
             this.lblInfo2 = new System.Windows.Forms.Label();
             this.lblInfo1 = new System.Windows.Forms.Label();
             this.btnCuestionario = new System.Windows.Forms.Button();
@@ -67,7 +67,7 @@
             // pnlMenu
             // 
             this.pnlMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(242)))), ((int)(((byte)(107)))));
-            this.pnlMenu.Controls.Add(this.lblConsejo);
+            this.pnlMenu.Controls.Add(this.btnConsejos);
             this.pnlMenu.Controls.Add(this.lblInfo2);
             this.pnlMenu.Controls.Add(this.lblInfo1);
             this.pnlMenu.Controls.Add(this.btnCuestionario);
@@ -85,16 +85,24 @@
             this.pnlMenu.Size = new System.Drawing.Size(160, 480);
             this.pnlMenu.TabIndex = 1;
             // 
-            // lblConsejo
+            // btnConsejos
             // 
-            this.lblConsejo.AutoSize = true;
-            this.lblConsejo.ForeColor = System.Drawing.Color.White;
-            this.lblConsejo.Location = new System.Drawing.Point(5, 372);
-            this.lblConsejo.Name = "lblConsejo";
-            this.lblConsejo.Size = new System.Drawing.Size(152, 26);
-            this.lblConsejo.TabIndex = 11;
-            this.lblConsejo.Text = "Da un click aquí para generar \r\nun consejo aleatorio";
-            this.lblConsejo.Click += new System.EventHandler(this.lblConsejo_Click);
+            this.btnConsejos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConsejos.FlatAppearance.BorderSize = 0;
+            this.btnConsejos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnConsejos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConsejos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsejos.ForeColor = System.Drawing.Color.White;
+            this.btnConsejos.Image = ((System.Drawing.Image)(resources.GetObject("btnConsejos.Image")));
+            this.btnConsejos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnConsejos.Location = new System.Drawing.Point(0, 341);
+            this.btnConsejos.Margin = new System.Windows.Forms.Padding(2);
+            this.btnConsejos.Name = "btnConsejos";
+            this.btnConsejos.Size = new System.Drawing.Size(160, 48);
+            this.btnConsejos.TabIndex = 12;
+            this.btnConsejos.Text = "Consejos";
+            this.btnConsejos.UseVisualStyleBackColor = true;
+            this.btnConsejos.Click += new System.EventHandler(this.btnConsejos_Click);
             // 
             // lblInfo2
             // 
@@ -343,6 +351,6 @@
         private Microsoft.VisualBasic.PowerPacks.LineShape lnsPie;
         private Microsoft.VisualBasic.PowerPacks.LineShape lnsHead;
         private Microsoft.VisualBasic.PowerPacks.LineShape lnsFoot;
-        private System.Windows.Forms.Label lblConsejo;
+        private System.Windows.Forms.Button btnConsejos;
     }
 }

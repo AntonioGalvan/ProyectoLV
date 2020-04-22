@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace presentacion
 {
-    public partial class FormRegistro : Form
+    public partial class frmRegistro : Form
     {
         static int len;
         
-        public FormRegistro()
+        public frmRegistro()
         {
             InitializeComponent();
 

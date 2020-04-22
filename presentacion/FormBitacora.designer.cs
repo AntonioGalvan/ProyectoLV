@@ -1,6 +1,6 @@
 ﻿namespace presentacion
 {
-    partial class FormBitacora
+    partial class frmBitacora
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormBitacora));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBitacora));
             this.btnCierre = new System.Windows.Forms.Button();
             this.lblBitacora = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
@@ -107,7 +107,7 @@
             this.ptrFondo.Image = ((System.Drawing.Image)(resources.GetObject("ptrFondo.Image")));
             this.ptrFondo.Location = new System.Drawing.Point(0, -1);
             this.ptrFondo.Name = "ptrFondo";
-            this.ptrFondo.Size = new System.Drawing.Size(659, 480);
+            this.ptrFondo.Size = new System.Drawing.Size(662, 480);
             this.ptrFondo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptrFondo.TabIndex = 9;
             this.ptrFondo.TabStop = false;
@@ -127,7 +127,7 @@
             this.radioButton1.Font = new System.Drawing.Font("Roboto", 9.75F);
             this.radioButton1.Location = new System.Drawing.Point(10, 24);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(48, 22);
+            this.radioButton1.Size = new System.Drawing.Size(41, 19);
             this.radioButton1.TabIndex = 1;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "No";
@@ -139,7 +139,7 @@
             this.radioButton2.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.Location = new System.Drawing.Point(10, 2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(42, 22);
+            this.radioButton2.Size = new System.Drawing.Size(36, 19);
             this.radioButton2.TabIndex = 0;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Si";
@@ -399,7 +399,7 @@
             this.rdbTodos.Text = "Todos los días";
             this.rdbTodos.UseVisualStyleBackColor = true;
             // 
-            // FormBitacora
+            // frmBitacora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -423,7 +423,7 @@
             this.Controls.Add(this.ptrFondo);
             this.Font = new System.Drawing.Font("Roboto", 9.75F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormBitacora";
+            this.Name = "frmBitacora";
             this.Text = "Bitacora";
             ((System.ComponentModel.ISupportInitialize)(this.ptrFondo)).EndInit();
             this.panel1.ResumeLayout(false);

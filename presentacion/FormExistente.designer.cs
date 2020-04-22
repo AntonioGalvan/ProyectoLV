@@ -498,7 +498,7 @@
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
             this.btnMinimizar.Location = new System.Drawing.Point(622, 10);
-            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(2);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(11, 12);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -510,7 +510,7 @@
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
             this.btnCerrar.Location = new System.Drawing.Point(639, 10);
-            this.btnCerrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(11, 12);
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
