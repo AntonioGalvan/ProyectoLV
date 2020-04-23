@@ -4,11 +4,11 @@
     using System.Data.Entity;
     public class DataContext : DbContext
     {
-        DbSet<Advice> Advices { get; set; }
-        DbSet<Contact> Contacts { get; set; }
-        DbSet<Expert> Experts { get; set; }
-        DbSet<Profile> Profiles { get; set; }
-        DbSet<Update> Updates { get; set; }
+        public DbSet<Advice> Advices { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Expert> Experts { get; set; }
+        public DbSet<Profile> Profiles { get; set; }
+        public DbSet<Update> Updates { get; set; }
         public DataContext() : base("name=Connection")
         {
 

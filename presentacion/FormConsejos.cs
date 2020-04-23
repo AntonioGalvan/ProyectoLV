@@ -1,4 +1,5 @@
-﻿using System;
+﻿using presentacion.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,6 +22,23 @@ namespace presentacion
         {
             Application.Exit();
             this.Dispose();
+        }
+
+        private void frmConsejos_Load(object sender, EventArgs e)
+        {
+            using (DataContext dataContext = new DataContext())
+            {
+                adviceBindingSource.DataSource = dataContext.Advices.ToList();
+            }
+            Advice advice = adviceBindingSource.Current as Advice;
+            
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            pnlAgregarConsejo.Visible = true;
+            adviceBindingSource.Add(new Advice());
+            adviceBindingSource.MoveLast();
         }
     }
 }
