@@ -30,15 +30,20 @@ namespace presentacion
             {
                 adviceBindingSource.DataSource = dataContext.Advices.ToList();
             }
-            Question advice = adviceBindingSource.Current as Question;
+            Advice advice = adviceBindingSource.Current as Advice;
             
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             pnlAgregarConsejo.Visible = true;
-            adviceBindingSource.Add(new Question());
+            adviceBindingSource.Add(new Advice());
             adviceBindingSource.MoveLast();
+        }
+
+        private void btnAgregar_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

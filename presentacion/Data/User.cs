@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace presentacion.Data
 {
@@ -15,5 +16,6 @@ namespace presentacion.Data
 
         public Client Client { get; set; }
         public Expert Expert { get; set; }
+        public ICollection<Advice> Advices { get; set; }
     }
 }
