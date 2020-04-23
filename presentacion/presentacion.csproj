@@ -178,6 +178,18 @@
     <Compile Include="Migrations\202004231459320_modificacionAdviceUser.designer.cs">
       <DependentUpon>202004231459320_modificacionAdviceUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004231542013_expertuser.cs" />
+    <Compile Include="Migrations\202004231542013_expertuser.designer.cs">
+      <DependentUpon>202004231542013_expertuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004231547078_expertuser1.cs" />
+    <Compile Include="Migrations\202004231547078_expertuser1.designer.cs">
+      <DependentUpon>202004231547078_expertuser1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004231549223_clasesentity.cs" />
+    <Compile Include="Migrations\202004231549223_clasesentity.designer.cs">
+      <DependentUpon>202004231549223_clasesentity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -240,6 +252,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004231459320_modificacionAdviceUser.resx">
       <DependentUpon>202004231459320_modificacionAdviceUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004231542013_expertuser.resx">
+      <DependentUpon>202004231542013_expertuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004231547078_expertuser1.resx">
+      <DependentUpon>202004231547078_expertuser1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004231549223_clasesentity.resx">
+      <DependentUpon>202004231549223_clasesentity.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

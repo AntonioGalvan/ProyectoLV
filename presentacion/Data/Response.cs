@@ -2,7 +2,7 @@
 
 namespace presentacion.Data
 {
-    public class Response
+    public class Response : IEntity
     {
         public int Id { get; set; }
 
