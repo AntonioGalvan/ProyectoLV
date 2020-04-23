@@ -166,5 +166,12 @@ namespace presentacion
         {
 
         }
+
+        private void btnExpertos_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form pantallaPrincipal = new frmExperto();
+            pantallaPrincipal.Show();
+        }
     }
 }

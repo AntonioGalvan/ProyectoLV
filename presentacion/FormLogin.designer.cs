@@ -47,6 +47,7 @@
             this.pcbContra = new System.Windows.Forms.PictureBox();
             this.pcbContraEyeC = new System.Windows.Forms.PictureBox();
             this.pcbContraEyeO = new System.Windows.Forms.PictureBox();
+            this.btnExpertos = new System.Windows.Forms.Button();
             this.pnlImagenLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -60,6 +61,7 @@
             // pnlImagenLogo
             // 
             this.pnlImagenLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(242)))), ((int)(((byte)(107)))));
+            this.pnlImagenLogo.Controls.Add(this.btnExpertos);
             this.pnlImagenLogo.Controls.Add(this.lblEco);
             this.pnlImagenLogo.Controls.Add(this.pcbLogo);
             this.pnlImagenLogo.Dock = System.Windows.Forms.DockStyle.Left;
@@ -72,11 +74,11 @@
             // lblEco
             // 
             this.lblEco.AutoSize = true;
-            this.lblEco.Font = new System.Drawing.Font("Keep Calm Med", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEco.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEco.ForeColor = System.Drawing.Color.White;
             this.lblEco.Location = new System.Drawing.Point(51, 175);
             this.lblEco.Name = "lblEco";
-            this.lblEco.Size = new System.Drawing.Size(151, 25);
+            this.lblEco.Size = new System.Drawing.Size(130, 24);
             this.lblEco.TabIndex = 1;
             this.lblEco.Text = "Eco-Analizer";
             // 
@@ -161,10 +163,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblLogin.AutoSize = true;
-            this.lblLogin.Font = new System.Drawing.Font("Keep Calm Med", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogin.Location = new System.Drawing.Point(434, 19);
             this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(97, 30);
+            this.lblLogin.Size = new System.Drawing.Size(85, 26);
             this.lblLogin.TabIndex = 8;
             this.lblLogin.Text = "LOGIN";
             // 
@@ -180,7 +182,7 @@
             this.btnIniciar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(110)))), ((int)(((byte)(45)))));
             this.btnIniciar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(159)))), ((int)(((byte)(61)))));
             this.btnIniciar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIniciar.Font = new System.Drawing.Font("Roboto Lt", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIniciar.ForeColor = System.Drawing.Color.White;
             this.btnIniciar.Location = new System.Drawing.Point(375, 223);
             this.btnIniciar.Name = "btnIniciar";
@@ -296,6 +298,17 @@
             this.pcbContraEyeO.TabStop = false;
             this.pcbContraEyeO.Click += new System.EventHandler(this.pcbContraEyeO_Click);
             // 
+            // btnExpertos
+            // 
+            this.btnExpertos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnExpertos.Location = new System.Drawing.Point(38, 258);
+            this.btnExpertos.Name = "btnExpertos";
+            this.btnExpertos.Size = new System.Drawing.Size(175, 40);
+            this.btnExpertos.TabIndex = 2;
+            this.btnExpertos.Text = "¿Quieres formar parte de el equipo de expertos (Ingresa aquí)";
+            this.btnExpertos.UseVisualStyleBackColor = false;
+            this.btnExpertos.Click += new System.EventHandler(this.btnExpertos_Click);
+            // 
             // frmLogin
             // 
             this.AcceptButton = this.btnIniciar;
@@ -357,6 +370,7 @@
         private System.Windows.Forms.PictureBox pcbContraEyeC;
         private System.Windows.Forms.PictureBox pcbContraEyeO;
         protected Microsoft.VisualBasic.PowerPacks.LineShape lnsContra;
+        private System.Windows.Forms.Button btnExpertos;
     }
 }
 

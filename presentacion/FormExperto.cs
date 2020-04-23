@@ -2,9 +2,9 @@
 
 namespace presentacion
 {
-    public partial class FormExperto : MetroFramework.Forms.MetroForm
+    public partial class frmExperto : MetroFramework.Forms.MetroForm
     { 
-        public FormExperto()
+        public frmExperto()
         {
             InitializeComponent();
         }
