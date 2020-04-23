@@ -154,6 +154,26 @@
     <Compile Include="Migrations\202004230838042_modificaciones.designer.cs">
       <DependentUpon>202004230838042_modificaciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004230916165_cambios.cs" />
+    <Compile Include="Migrations\202004230916165_cambios.designer.cs">
+      <DependentUpon>202004230916165_cambios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004230947025_modificacion2.cs" />
+    <Compile Include="Migrations\202004230947025_modificacion2.designer.cs">
+      <DependentUpon>202004230947025_modificacion2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004230951031_changes.cs" />
+    <Compile Include="Migrations\202004230951031_changes.designer.cs">
+      <DependentUpon>202004230951031_changes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004231102465_ayuda.cs" />
+    <Compile Include="Migrations\202004231102465_ayuda.designer.cs">
+      <DependentUpon>202004231102465_ayuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004231207483_ayuda1.cs" />
+    <Compile Include="Migrations\202004231207483_ayuda1.designer.cs">
+      <DependentUpon>202004231207483_ayuda1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -198,6 +218,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004230838042_modificaciones.resx">
       <DependentUpon>202004230838042_modificaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004230916165_cambios.resx">
+      <DependentUpon>202004230916165_cambios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004230947025_modificacion2.resx">
+      <DependentUpon>202004230947025_modificacion2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004230951031_changes.resx">
+      <DependentUpon>202004230951031_changes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004231102465_ayuda.resx">
+      <DependentUpon>202004231102465_ayuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004231207483_ayuda1.resx">
+      <DependentUpon>202004231207483_ayuda1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

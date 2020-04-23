@@ -20,10 +20,9 @@
         [Required]
         [StringLength(20)]
         public string Degree { get; set; }
-        [Required]
         [StringLength(200)]
         public string ImageUrl { get; set; }
-
+        
         public ICollection<User> Users { get; set; }
         public ICollection<Test> Tests { get; set; }
     }
