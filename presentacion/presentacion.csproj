@@ -150,6 +150,10 @@
     <Compile Include="Migrations\202004230711104_modificacion.designer.cs">
       <DependentUpon>202004230711104_modificacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004230838042_modificaciones.cs" />
+    <Compile Include="Migrations\202004230838042_modificaciones.designer.cs">
+      <DependentUpon>202004230838042_modificaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -191,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004230711104_modificacion.resx">
       <DependentUpon>202004230711104_modificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004230838042_modificaciones.resx">
+      <DependentUpon>202004230838042_modificaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
