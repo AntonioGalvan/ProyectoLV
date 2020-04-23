@@ -70,11 +70,14 @@
   <ItemGroup>
     <Compile Include="DataContext.cs" />
     <Compile Include="Data\Advice.cs" />
-    <Compile Include="Data\Contact.cs" />
+    <Compile Include="Data\Question.cs" />
+    <Compile Include="Data\Client.cs" />
     <Compile Include="Data\Expert.cs" />
     <Compile Include="Data\IEntity.cs" />
-    <Compile Include="Data\Profile.cs" />
-    <Compile Include="Data\Update.cs" />
+    <Compile Include="Data\Response.cs" />
+    <Compile Include="Data\TestQuestion.cs" />
+    <Compile Include="Data\Test.cs" />
+    <Compile Include="Data\User.cs" />
     <Compile Include="FormAcerca.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +101,12 @@
     </Compile>
     <Compile Include="FormExistente.designer.cs">
       <DependentUpon>FormExistente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExperto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExperto.Designer.cs">
+      <DependentUpon>FormExperto.cs</DependentUpon>
     </Compile>
     <Compile Include="FormInicio.cs">
       <SubType>Form</SubType>
@@ -133,9 +142,37 @@
     <Compile Include="Migrations\202004222051531_prueba1.designer.cs">
       <DependentUpon>202004222051531_prueba1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202004230620078_modificacion1.cs" />
-    <Compile Include="Migrations\202004230620078_modificacion1.designer.cs">
-      <DependentUpon>202004230620078_modificacion1.cs</DependentUpon>
+    <Compile Include="Migrations\202004230638564_inicio.cs" />
+    <Compile Include="Migrations\202004230638564_inicio.designer.cs">
+      <DependentUpon>202004230638564_inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004230711104_modificacion.cs" />
+    <Compile Include="Migrations\202004230711104_modificacion.designer.cs">
+      <DependentUpon>202004230711104_modificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004230838042_modificaciones.cs" />
+    <Compile Include="Migrations\202004230838042_modificaciones.designer.cs">
+      <DependentUpon>202004230838042_modificaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004230916165_cambios.cs" />
+    <Compile Include="Migrations\202004230916165_cambios.designer.cs">
+      <DependentUpon>202004230916165_cambios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004230947025_modificacion2.cs" />
+    <Compile Include="Migrations\202004230947025_modificacion2.designer.cs">
+      <DependentUpon>202004230947025_modificacion2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004230951031_changes.cs" />
+    <Compile Include="Migrations\202004230951031_changes.designer.cs">
+      <DependentUpon>202004230951031_changes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004231102465_ayuda.cs" />
+    <Compile Include="Migrations\202004231102465_ayuda.designer.cs">
+      <DependentUpon>202004231102465_ayuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004231207483_ayuda1.cs" />
+    <Compile Include="Migrations\202004231207483_ayuda1.designer.cs">
+      <DependentUpon>202004231207483_ayuda1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -151,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormExistente.resx">
       <DependentUpon>FormExistente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExperto.resx">
+      <DependentUpon>FormExperto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormInicio.resx">
       <DependentUpon>FormInicio.cs</DependentUpon>
@@ -170,8 +210,29 @@
     <EmbeddedResource Include="Migrations\202004222051531_prueba1.resx">
       <DependentUpon>202004222051531_prueba1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202004230620078_modificacion1.resx">
-      <DependentUpon>202004230620078_modificacion1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202004230638564_inicio.resx">
+      <DependentUpon>202004230638564_inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004230711104_modificacion.resx">
+      <DependentUpon>202004230711104_modificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004230838042_modificaciones.resx">
+      <DependentUpon>202004230838042_modificaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004230916165_cambios.resx">
+      <DependentUpon>202004230916165_cambios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004230947025_modificacion2.resx">
+      <DependentUpon>202004230947025_modificacion2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004230951031_changes.resx">
+      <DependentUpon>202004230951031_changes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004231102465_ayuda.resx">
+      <DependentUpon>202004231102465_ayuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004231207483_ayuda1.resx">
+      <DependentUpon>202004231207483_ayuda1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -185,6 +246,7 @@
     <None Include="packages.config" />
     <None Include="Properties\DataSources\frmConsejos.datasource" />
     <None Include="Properties\DataSources\presentacion.Data.Advice.datasource" />
+    <None Include="Properties\DataSources\presentacion.Data.Expert.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
