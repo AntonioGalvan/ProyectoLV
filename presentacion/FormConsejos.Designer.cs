@@ -189,7 +189,7 @@
             // 
             // adviceBindingSource
             // 
-            this.adviceBindingSource.DataSource = typeof(presentacion.Data.Advice);
+            this.adviceBindingSource.DataSource = typeof(presentacion.Data.Question);
             // 
             // lblConsejo
             // 

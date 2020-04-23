@@ -30,14 +30,14 @@ namespace presentacion
             {
                 adviceBindingSource.DataSource = dataContext.Advices.ToList();
             }
-            Advice advice = adviceBindingSource.Current as Advice;
+            Question advice = adviceBindingSource.Current as Question;
             
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             pnlAgregarConsejo.Visible = true;
-            adviceBindingSource.Add(new Advice());
+            adviceBindingSource.Add(new Question());
             adviceBindingSource.MoveLast();
         }
     }
