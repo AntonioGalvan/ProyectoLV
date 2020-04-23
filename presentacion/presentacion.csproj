@@ -99,6 +99,12 @@
     <Compile Include="FormExistente.designer.cs">
       <DependentUpon>FormExistente.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormExperto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExperto.Designer.cs">
+      <DependentUpon>FormExperto.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormInicio.cs">
       <SubType>Form</SubType>
     </Compile>
