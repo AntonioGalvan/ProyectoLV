@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext.cs" />
+    <Compile Include="Data\Advice.cs" />
     <Compile Include="Data\Question.cs" />
     <Compile Include="Data\Client.cs" />
     <Compile Include="Data\Expert.cs" />

@@ -11,6 +11,7 @@
         public DbSet<Test> Tests { get; set; }
         public DbSet<TestQuestion> TestQuestions { get; set; }
         public DbSet<Response> Responses { get; set; }
+        public DbSet<Advice> Advices { get; set; }
         public DataContext() : base("name=Connection")
         {
 
